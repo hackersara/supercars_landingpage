@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.hero {
+    height: 100vh;
+    background: url('pexels-abdul-rahman-2669315-5046305.jpg') no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    opacity: 0.7;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.cta-btn {
+    background: #e50914;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.about, .services, .gallery, .contact {
+    padding: 50px 20px;
+}
+
+.about img {
+    width: 100%;
+    height: auto;
+}
+
+.about-text {
+    padding: 20px;
+}
+
+.services h2, .gallery h2, .contact h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.service-item {
+    text-align: center;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    margin-bottom: 20px;
+}
+
+.gallery-images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.gallery-images img {
+    width: 100%;
+    height: auto;
+}
+
+.contact-info, .contact-form {
+    margin-bottom: 20px;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: #222;
+    border: none;
+    color: #fff;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 10px;
+    background: #e50914;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.8);
+}
